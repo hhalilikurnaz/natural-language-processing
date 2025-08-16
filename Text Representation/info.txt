@@ -1,0 +1,12 @@
+Neden yapıyoruz bunu :
+Bilgisayarların anlayabilmesi için ;Metinleri sayısal hale getiriyoruz 
+Öznetitelik çıkarma feature engineering
+ve model eğitimi için yapıyoruz 
+
+
+Yöntemleri :
+Bag Of Words(BoW)
+TF-IDF(Term Frequency-Inverse Document Frequency)
+N-Gram Modelleri 
+Word Embeddings
+Transformers Tabanlı Metin Temsili 

@@ -1,0 +1,24 @@
+#neden metin önişleme yapmalıyız 
+#Veri kalitesini arttırıyoruz
+#cümle temizleniyor mesela bir örnek olarak
+#model performansını arttırıyoruz.Doğru ve anlamlı sonuçlar üretmsine etki eder
+#metin önişleme yapmazsan model çalışmaz 
+#Veri boyutunu yönetir.
+
+'''
+Text Processing steps
+Veri Temizleme /Normalizasyon
+Tokenizasyon(kelime veya cümle parçalarına bölmek)
+Stemming and Lemmatization(kök ve gövde analizi)
+Stop Words(Durdurma kelimeleri) metin içerisinden çıkarılmalı 
+
+'''
+#Veri Temizleme 
+'''
+Boşlukların temizlenmesi.Fazladan boşluklar okunabilirlikte sıkıntılar çıkarıyor
+Büyük küçük harf dönüşümleri
+Noktalama işaretlerinin ortadan kaldırılması.Model için birşey ifade etmiyor noise olarak kabul ediliyor
+Özel Karakterlerin kaldırılması.
+Yazım hatalarının düzeltilmesi.
+HTML ve URL Temizleme .Web yeri gibi kaynaklardan gelen verilerde bu formatlar temizlenmeli.
+'''
