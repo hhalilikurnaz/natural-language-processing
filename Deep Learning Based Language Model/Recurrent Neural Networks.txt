@@ -1,0 +1,37 @@
+>Zaman Serisi Ve Sekans Verisi arasındaki farklar 
+>>Zaman serisi zaman içinde ardışık olarak kaydedilen veriler.Sekans verisi ise sıralı veriler.(DNA,NLP)
+>>>Dizisel Bağımsızlık : Zaman Serisi ve dil verilerinde , her bir öğre sırasıyla önceki ögelere bağlıdır.Cümledeki bir kelimenin anlamı önceki kelimelerle ilişkili olabilir.
+Zaman srisi örneği : Hava sıcaklıgı örnği.
+
+
+>Standart Sinir Ağları Zaman Serisinden Neden Yetersiz 
+>>ANN(Yapay inir Ağları) neden yetersiz ? Sabit Girdi/Çıktı ama sekans verileri dinamik uzunlukta olabilir.
+>>Zaman bağımlılıkları.
+>>>Geçmiş Bilgiyi Kaybetme.Sekans verilerinde geçmiş veriler önemlidir.
+
+
+
+
+>RNN Nedir 
+>>Sekans verilerini işlemek için özel olarak tasarlanmıs sinir ağlarıdır.
+>>Zaman boyutunda tekrar.Sıralı veri tipleri için ideal olarak kullanılabilir .
+
+
+>RNN Mimarisi Nedir Ve Nasıl Çalışır ?
+>>< Ağ yapısı.Rnnlerde her zaman aralığında bir gizli katman(hidden layer ) vardır.
+
+
+
+>Vanishing Gradient Problemi 
+>>Eğitim sırasında ortaya çıkan bir problem.Back Propagation sırasında gradyanlar çok küçük hale geliyor.Güncellenemiyor buda öğrenimin tamamlanaması demek.
+>>>Kısa dönem bağımlılıkları öğreniyor ancak uzun dönem bağımlılıklarını öğrenmekte zorlanıyor.
+
+
+
+>Rnn ve Nlp alanında yapılan uygulamalar 
+>>>Dil Modelleme 
+>>>Makine Çevrisi 
+>>>Duygu Analizi
+>>>Konuşma Tanıma
+>><Metin Üretimi
+

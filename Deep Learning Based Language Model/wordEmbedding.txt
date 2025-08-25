@@ -1,0 +1,31 @@
+#Neden kelimeleri vektörlerle temsil etmeliyiz ?
+'''
+Dilsel anlamı yakalama.
+Matematiksel işlemler.Kelimeler arasındaki ilişkileri anlamak.
+Verimli Temsil.
+
+'''
+
+"""Word2Vec Nedir ?
+Anlamsal yakınlıkları kelime komsularına göre öğrenir.
+Kleimeler arasında anlamlı matematiksel işlemler yapmayı sağlar.
+Temelde CBOW (Continuous Bag of Words) modeli kullanır.>Kelimeinin etrafındakşi diğer kelimeleri alıyor ve kelime tahmini yapıyor 
+Skip-gram model kelimeden etrafındaki kelşimeleri tahmin ediyor.Özellikle nadir kelimeler için daha iyi sonuçlar verir.
+"""
+
+"""FastText Nedir ?
+kelimeleri karakter seviyensinde de öğrenir nadir kelimeler için daha güçlü bir modeldir .
+"""
+
+""" Vektör uzay ve anlam yakınlıgı nedir ?
+Kelimelerin vektör temsilleri,anlamlarına göre vektör uzayında konumlandırılır.
+Anlamca benzer kelimeler(kedi köpek gibi) vektör uzayında birbirine yakın olurken farklı anlamlardakı kelimeler uzak oluyot(kedi araba gibi).
+Yakınlık ve uzaklık ayrımı Kosinüs Benzerliği ile yapılabilir 
+
+"""
+
+'''Benzerlikleri Görselleştirmek;
+t-SNE  yüksek boyutlu vektörlerin daha net kümelenmesini sağlayan görselleştirme tekniği 
+, PCA  Vektör uzayındaki yüksek büyüklükteki vektörlerin boyutlarını azaltma .'''
+
+
